@@ -14,23 +14,20 @@ This is a web-based Employee Management Application built with Django. The appli
    - Includes fields for name, address, phone number, salary, designation, and a short description.
    - Salary and Designation fields are non-editable once the profile is saved.
 
-2. **Unique Employee Profile**:
-   - Each employee has a unique profile to avoid duplicates.
-
-3. **Update Employee Information**:
+2. **Update Employee Information**:
    - Allows updating employee details (name, address, phone number, and short description).
    - Salary and Designation fields cannot be edited after profile creation.
 
-4. **Delete Employee**:
+3. **Delete Employee**:
    - Admin can delete employee profiles from the system.
 
-5. **Display All Employees**:
+4. **Display All Employees**:
    - Homepage shows all employee profiles with name, designation, and short description.
 
-6. **Navigation Bar**:
+5. **Navigation Bar**:
    - Links to Home, Add Employee, and Update/Delete Employee.
 
-7. **Superuser Authentication**:
+6. **Superuser Authentication**:
    - Superuser login: `admin` / `123`.
    - Django’s built-in authentication system is used to manage user logins and permissions.
 
@@ -43,7 +40,24 @@ This is a web-based Employee Management Application built with Django. The appli
    ```bash
    git clone <https://github.com/sumonstr12/EmoployeeData.git>
    ```
+2. ** Change dir**:
+   ```bash
+   cd EmoployeeData
+   ```
+   ```bash
+   cd EmployeeData
+   ```
+3. **Enviornment Setup**:
 
+   ```bash
+   pipenv shell
+   ```
+4. **Install Django**:
+
+   ```bash
+   pipenv install django
+   cd EmployeeData
+   ```
 6. **Run the server**:
 
    ```bash
@@ -79,7 +93,7 @@ This is a web-based Employee Management Application built with Django. The appli
 
 The **CSS file** is located at `employees/static/employees/style.css` and provides basic styling for:
 
-I applied css on this project. but it didn't properly works. and didn't find the main bugs.
+I applied css on this project. but it didn't  works properly. and i didn't find the main bugs.
 
 ---
 
@@ -99,3 +113,4 @@ Khulna.
 
 1. `Facebook` [Sumon Roy](https://www.facebook.com/sumonroysnr/)
 2. `Linkedin` [Sumon Chandra Barman](https://www.linkedin.com/in/sumon-str/)
+3. `Github` [Sumon Roy](https://github.com/sumonstr12)
