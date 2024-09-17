@@ -1,0 +1,12 @@
+{% extends 'employees/base.html' %}
+
+{% block title %}Update Employee{% endblock %}
+
+{% block content %}
+<h1>Update Employee</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Update Employee</button>
+</form>
+{% endblock %}
