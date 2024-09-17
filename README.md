@@ -41,8 +41,7 @@ This is a web-based Employee Management Application built with Django. The appli
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd employee-management
+   git clone <https://github.com/sumonstr12/EmoployeeData.git>
    ```
 
 6. **Run the server**:
